@@ -5,4 +5,4 @@ TO DO: </br>
 -A Readme File for the finished thing. (Just edit this and delete all these at the end).</br>
 </br>
 </br>
-<img src="testing.jpg" alt="O'Brien" width="200"/>
+<img src="testing.jpg" alt="O'Brien" width="2000"/>
