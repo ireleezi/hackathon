@@ -17,4 +17,5 @@ def process_data(df: pd.DataFrame) -> pd.DataFrame:
     #use OpenAI to map out areas where trees can be planted
     #omit areas with trees and infrastructure
     #input council area as parameter to keep response size manageable
+    #change return to html/image type
     return df['TREELOCATIONX'].to_dict()
