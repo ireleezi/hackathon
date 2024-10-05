@@ -14,5 +14,7 @@ def fetch_onidata() -> pd.DataFrame:
         return None
     
 def process_data(df: pd.DataFrame) -> pd.DataFrame:
-    #ai model logic
+    #use OpenAI to map out areas where trees can be planted
+    #omit areas with trees and infrastructure
+    #input council area as parameter to keep response size manageable
     return df['TREELOCATIONX'].to_dict()
