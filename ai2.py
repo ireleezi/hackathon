@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
+##TODO Code needs to show the grid with each sqaures tree density and air pollution. Using all the combined datasets it needs to do some type of meddeling to decide where trees/greenery needs to go
+
 # Load the tree dataset
 trees_df = pd.read_csv('odTrees.csv', low_memory=False)
 
@@ -113,3 +115,5 @@ plot_grid(grid_df)
 
 # Output the recommended areas for tree planting
 print("Recommended areas for tree planting:\n", recommended_areas[['x', 'y', 'pollution', 'tree_density']])
+
+
