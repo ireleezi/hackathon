@@ -8,7 +8,7 @@ TO DO: </br>
 
 ## Overview
 
-GreenThumBot is an innovative project focused on enhancing urban green spaces, increasing tree coverage, and promoting sustainable practices to protect Belfast's environment. It leverages data from OpenData NI datasets such as the Belfast Trees Dataset, Belfast City Parks, and Areas of Outstanding Beauty to identify optimal locations for tree planting and green infrastructure development.
+GreenThumBot is an innovative project focused on enhancing urban green spaces, increasing tree coverage, and promoting sustainable practices to protect Belfast's environment and helping every day people get involved with improving the world around them. It leverages data from OpenData NI datasets such as the Belfast Trees Dataset, Belfast City Parks, and Areas of Outstanding Beauty to identify optimal locations for tree planting and green infrastructure development.
 
 Our challenge is simple yet impactful: How can we harness technology, data, and community involvement to create a greener Belfast? GreenThumBot is our solution, combining technology, data, and community spirit to transform Belfast's urban landscape.
 
@@ -30,15 +30,20 @@ To run the project, simply start the Flask server by running python app.py in th
 
 - Planting Recommendations: Suggest optimal planting locations based on tree density and pollution data.
 
-- Community Engagement: Users can adopt trees and participate in community planting events.
 
 ## Future Functionality
 
 We envision expanding GreenThumBot into two distinct versions to address both community and industrial needs:
 
-Community Version: Aimed at local residents, this version will allow users to view community gardens and green spaces, and register plots in the app for monitoring. The community version will also feature GreenThumBot units that monitor plant growth, providing updates and recommendations directly to users to maintain healthy growth of their plants.
+**Community Version**: Aimed at local residents, this version will allow users to: 
+- View community gardens and green spaces
+- Adopt and monitor trees trees
+- Register plots in the app to monitor
+- Recieve recommendations and crucial information on any registered plants fed to them in real-time via any GreenThumBot units
 
-Industrial Version: This version will cater to local councils, environmental agencies, and large organizations. It will provide a city-wide overview, including information on tree numbers, planting sites, pollution levels, and more. This version will help in making strategic decisions for urban planning and sustainability initiatives.
+**Industrial Version**: This version will cater to local councils, environmental agencies, and large organizations. It will provide:
+- A city-wide overview, including information on tree numbers, planting sites, pollution levels, and more.
+- This version will help in making strategic decisions for urban planning and sustainability initiatives.
 
 ## Advanced Machine Learning and IoT Integration
 
@@ -75,6 +80,8 @@ Community Dashboard: Insights into local green spaces, community activities, and
 **Promote Nature-Based Solutions**: Implement green roofs, rain gardens, and other solutions where they will make the biggest impact.
 
 **Embed Sustainable Food Practices**: Participate in community gardens that provide fresh produce and support local wildlife.
+
+**Deploy GreenThumBot units**: The physical GreenThumBot hardware will be able to give us more insights on improving Belfast and improve community participation as even the average joe can learn how to garden.
 
 ## Generative AI Integration
 
