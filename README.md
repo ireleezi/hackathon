@@ -4,15 +4,15 @@ TO DO: </br>
 -A Jupyter Notebook.</br>
 -A Readme File for the finished thing. (Just edit this and delete all these at the end).</br></br>
 
-GreenThumBot - Greening Belfast for a Sustainable Future
+# GreenThumBot - Greening Belfast for a Sustainable Future
 
-Overview
+## Overview
 
 GreenThumBot is an innovative project focused on enhancing urban green spaces, increasing tree coverage, and promoting sustainable practices to protect Belfast's environment. It leverages data from OpenData NI datasets such as the Belfast Trees Dataset, Belfast City Parks, and Areas of Outstanding Beauty to identify optimal locations for tree planting and green infrastructure development.
 
 Our challenge is simple yet impactful: How can we harness technology, data, and community involvement to create a greener Belfast? GreenThumBot is our solution, combining technology, data, and community spirit to transform Belfast's urban landscape.
 
-Current Functionality
+## Current Functionality
 
 The project consists of two main components:
 
@@ -22,7 +22,7 @@ Frontend (Angular Application): The frontend, located in the hackathon-frontend 
 
 To run the project, simply start the Flask server by running python app.py in the backend repository and manually boot up the Angular server using ng serve in the frontend repository. Both components run on localhost:4200 and are currently not containerized.
 
-Current Features
+## Current Features
 
 Tree Location Analysis: Visualize the existing tree coverage across Belfast.
 
@@ -32,7 +32,7 @@ Planting Recommendations: Suggest optimal planting locations based on tree densi
 
 Community Engagement: Users can adopt trees and participate in community planting events.
 
-Future Functionality
+## Future Functionality
 
 We envision expanding GreenThumBot into two distinct versions to address both community and industrial needs:
 
@@ -40,7 +40,7 @@ Community Version: Aimed at local residents, this version will allow users to vi
 
 Industrial Version: This version will cater to local councils, environmental agencies, and large organizations. It will provide a city-wide overview, including information on tree numbers, planting sites, pollution levels, and more. This version will help in making strategic decisions for urban planning and sustainability initiatives.
 
-Advanced Machine Learning and IoT Integration
+## Advanced Machine Learning and IoT Integration
 
 The analysis will be further developed using a more advanced machine learning model that takes into consideration a wider range of variables, including:
 
@@ -56,7 +56,7 @@ This enriched model will provide more sophisticated recommendations, enhancing t
 
 The GreenThumBot hardware unit will also undergo significant improvements. Currently, the prototype measures soil humidity, pH levels, and uses a basic camera to monitor individual plant growth at registered sites. In future iterations, the unit will incorporate more advanced sensors and data analytics, allowing for better monitoring and actionable insights for users.
 
-Expanding the User Interface
+## Expanding the User Interface
 
 The UI will be developed further to provide a more seamless user experience, facilitating:
 
@@ -66,7 +66,7 @@ Interactive GIS Mapping: Detailed maps for understanding local ecosystems, green
 
 Community Dashboard: Insights into local green spaces, community activities, and a space for users to share their progress and success stories.
 
-Key Goals for the Future
+## Key Goals for the Future
 
 Increase Tree Coverage: By analyzing soil conditions and urban infrastructure, we suggest the best places to plant new trees. Users can join community planting events, adopt a tree, and track its growth with real-time updates.
 
@@ -76,11 +76,11 @@ Promote Nature-Based Solutions: Implement green roofs, rain gardens, and other s
 
 Embed Sustainable Food Practices: Participate in community gardens that provide fresh produce and support local wildlife.
 
-Generative AI Integration
+## Generative AI Integration
 
 During the hackathon, we utilized generative AI tools like ChatGPT for idea generation, data modeling, and solution refinement. This allowed us to process large datasets efficiently and develop predictive models for tree planting and ecosystem management. By integrating generative AI, we accelerated our development process and created a more effective, user-friendly platform.
 
-Containerization Next Steps
+## Containerization Next Steps
 
 To further enhance the deployment process and make the project more scalable, we plan to containerize both the backend and frontend components using Docker. Containerization will enable easier setup, consistent environments, and better resource management. The next steps for containerization are as follows:
 
