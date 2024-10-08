@@ -16,21 +16,21 @@ Our challenge is simple yet impactful: How can we harness technology, data, and 
 
 The project consists of two main components:
 
-Backend (Flask Server): Located in the hackathon-backend repository, this Python Flask server provides the necessary functionality to analyze datasets from OpenData NI. It generates maps of Belfast displaying current tree locations, pollution levels, and recommended areas for new tree planting initiatives. The Flask server offers an API that communicates with the frontend to provide map data and analysis results.
+**Backend (Flask Server)**: Located in the hackathon-backend repository, this Python Flask server provides the necessary functionality to analyze datasets from OpenData NI. It generates maps of Belfast displaying current tree locations, pollution levels, and recommended areas for new tree planting initiatives. The Flask server offers an API that communicates with the frontend to provide map data and analysis results.
 
-Frontend (Angular Application): The frontend, located in the hackathon-frontend repository, allows users to interact with the backend data. Users can view maps and gain insights into current tree coverage, pollution levels, and community planting opportunities. The UI is designed to be simple yet informative, providing a clear view of urban greening initiatives.
+**Frontend (Angular Application)**: The frontend, located in the [hackathon-frontend](https://github.com/ireleezi/hackathon-frontend) repository, allows users to interact with the backend data. Users can view maps and gain insights into current tree coverage, pollution levels, and community planting opportunities. The UI is designed to be simple yet informative, providing a clear view of urban greening initiatives.
 
 To run the project, simply start the Flask server by running python app.py in the backend repository and manually boot up the Angular server using ng serve in the frontend repository. Both components run on localhost:4200 and are currently not containerized.
 
 ## Current Features
 
-Tree Location Analysis: Visualize the existing tree coverage across Belfast.
+- Tree Location Analysis: Visualize the existing tree coverage across Belfast.
 
-Pollution Mapping: Identify areas with higher pollution levels where tree planting could help mitigate effects.
+- Pollution Mapping: Identify areas with higher pollution levels where tree planting could help mitigate effects.
 
-Planting Recommendations: Suggest optimal planting locations based on tree density and pollution data.
+- Planting Recommendations: Suggest optimal planting locations based on tree density and pollution data.
 
-Community Engagement: Users can adopt trees and participate in community planting events.
+- Community Engagement: Users can adopt trees and participate in community planting events.
 
 ## Future Functionality
 
@@ -44,15 +44,15 @@ Industrial Version: This version will cater to local councils, environmental age
 
 The analysis will be further developed using a more advanced machine learning model that takes into consideration a wider range of variables, including:
 
-Buildings and infrastructure (e.g., roads, urban development zones).
+- Buildings and infrastructure (e.g., roads, urban development zones).
 
-Planning permissions for different sites.
+- Planning permissions for different sites.
 
-Availability of resources for planting.
+- Availability of resources for planting.
 
-Proximity of people to recommended planting sites.
+- Proximity of people to recommended planting sites.
 
-This enriched model will provide more sophisticated recommendations, enhancing the accuracy and impact of our greening initiatives.
+- This enriched model will provide more sophisticated recommendations, enhancing the accuracy and impact of our greening initiatives.
 
 The GreenThumBot hardware unit will also undergo significant improvements. Currently, the prototype measures soil humidity, pH levels, and uses a basic camera to monitor individual plant growth at registered sites. In future iterations, the unit will incorporate more advanced sensors and data analytics, allowing for better monitoring and actionable insights for users.
 
@@ -68,13 +68,13 @@ Community Dashboard: Insights into local green spaces, community activities, and
 
 ## Key Goals for the Future
 
-Increase Tree Coverage: By analyzing soil conditions and urban infrastructure, we suggest the best places to plant new trees. Users can join community planting events, adopt a tree, and track its growth with real-time updates.
+**Increase Tree Coverage**: By analyzing soil conditions and urban infrastructure, we suggest the best places to plant new trees. Users can join community planting events, adopt a tree, and track its growth with real-time updates.
 
-Protect Local Ecosystems: IoT sensors will monitor the health of green spaces, providing data that helps in preserving and restoring natural habitats.
+**Protect Local Ecosystems**: IoT sensors through GreenThumBot units will monitor the health of green spaces, providing data that helps in preserving and restoring natural habitats.
 
-Promote Nature-Based Solutions: Implement green roofs, rain gardens, and other solutions where they will make the biggest impact.
+**Promote Nature-Based Solutions**: Implement green roofs, rain gardens, and other solutions where they will make the biggest impact.
 
-Embed Sustainable Food Practices: Participate in community gardens that provide fresh produce and support local wildlife.
+**Embed Sustainable Food Practices**: Participate in community gardens that provide fresh produce and support local wildlife.
 
 ## Generative AI Integration
 
